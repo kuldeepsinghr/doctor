@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header sticky top-0">
+        <nav class="navbar relative bg-white">
+            <div class="flex flex-row justify-center items-center gap-4">
+                <a href="#" class="nav-logo"><img class="w-10" src="images/healthcare.svg" alt="logo"></a>
+                <div class="md:flex md:flex-row md:items-center md:justify-center md:gap-4">
+                    <p class="font-bold text-blue-700 md:text-2xl">Tom Dixon MD</p><span
+                        class="hidden text-orange-500 md:block">|</span>
+                    <span class="text-orange-500 font-medium md:text-2xl">Family Doctor</span>
+                </div>
+            </div>
+            <ul class="nav-menu md:gap-6">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link text-[1px] hover:text-orange-500 duration-500">Meet Dr.Dixon</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link text-xs hover:text-orange-500 duration-500">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#patientinfo" class="nav-link text-xs hover:text-orange-500 duration-500">Patient Info</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-xs hover:text-orange-500 duration-500">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Main hero section -->
+    <main class="bg-no-repeat bg-cover w-full h-max md:py-24"
+        style="background-image: linear-gradient(rgba(13, 27, 54, 0.5), rgba(13, 27, 54, 0.5)), url('images/background.webp');">
+        <div class="px-6 py-14 text-center text-white flex flex-col justify-center items-center">
+            <h1 class="text-3xl font-bold md:text-6xl">Tom Dixon Md</h1>
+            <p class="text-lg my-6 md:text-2xl">Helping to Build a Healthy Community</p>
+            <button
+                class="bg-orange-500 w-fit px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 duration-500">Book
+                an Appointment</button>
+        </div>
+    </main>
+
+
+    <!-- About Doctor -->
+    <section id="about">
+        <div class="container flex flex-col md:m-auto lg:flex-row xl:max-w-7xl xl:m-auto">
+            <div
+                class="left text-center flex flex-col gap-9 justify-center items-center my-14 px-8 md:p-7 lg:text-left md:px-20">
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-blue-700 font-bold text-xl">About Tom Dixon MD</h2>
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
+                        or double click me to add your own content and make changes to the font. Feel free to drag and
+                        drop me anywhere you like on your page. I’m a great place for you to tell a story and let your
+                        users know a little more about you.</p>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h3 class="text-blue-700 font-bold text-xl">Education</h3>
+                    <p>Medical School - University of Dulton Health Science Center.
+
+                        Residency in Family Medicine - University of Dulton Health Science Center.</p>
+                </div>
+                <button
+                    class="bg-orange-500 text-white w-fit px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 duration-500">Read
+                    More</button>
+            </div>
+            <img class="right flex justify-center items-center w-full lg:w-1/2" src="images/doctor2.jpg"
+                alt="Tom Dixon MD">
+        </div>
+    </section>
+
+
+    <!-- Secvices section -->
+    <section id="services" class="bg-[#f5f5f5] p-6">
+        <h2 class="text-blue-700 font-bold text-xl text-center py-8">How Can I Help You</h2>
+        <div class="md:max-w-4xl md:m-auto">
+            <div class="box grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                <div class="items bg-[#fcfdff]">
+                    <img class="w-10/12" src="images/services1.jpg" alt="">
+                    <div class="flex flex-col justify-center items-center py-5 px-10 gap-7">
+                        <a class="text-2xl hover:text-gray-500" href="#">Blood Work</a>
+                        <button
+                            class="bg-white text-orange-500 w-full px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 hover:text-white duration-500 border-orange-500 border-2">Book
+                            now</button>
+                    </div>
+                </div>
+                <div class="items bg-[#fcfdff]">
+                    <img class="w-10/12" src="images/services2.jpg" alt="">
+                    <div class="flex flex-col justify-center items-center py-5 px-10 gap-7">
+                        <a class="text-2xl hover:text-gray-500" href="#">Phisical Exams</a>
+                        <button
+                            class="bg-white text-orange-500 w-full px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 hover:text-white duration-500 border-orange-500 border-2">Book
+                            now</button>
+                    </div>
+                </div>
+                <div class="items bg-[#fcfdff]">
+                    <img class="w-10/12" src="images/services3.jpg" alt="">
+                    <div class="flex flex-col justify-center items-center py-5 px-10 gap-7">
+                        <a class="text-2xl hover:text-gray-500" href="#">Mental Health</a>
+                        <button
+                            class="bg-white text-orange-500 w-full px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 hover:text-white duration-500 border-orange-500 border-2">Book
+                            now</button>
+                    </div>
+                </div>
+                <div class="items bg-[#fcfdff]">
+                    <img class="w-10/12" src="images/services4.jpg" alt="">
+                    <div class="flex flex-col justify-center items-center py-5 px-10 gap-7">
+                        <a class="text-2xl hover:text-gray-500" href="#">Flu Shot</a>
+                        <button
+                            class="bg-white text-orange-500 w-full px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 hover:text-white duration-500 border-orange-500 border-2">Book
+                            now</button>
+                    </div>
+                </div>
+                <div class="items bg-[#fcfdff]">
+                    <img class="w-10/12" src="images/services5.jpg" alt="">
+                    <div class="flex flex-col justify-center items-center py-5 px-10 gap-7">
+                        <a class="text-2xl hover:text-gray-500" href="#">Prevention & Wellness</a>
+                        <button
+                            class="bg-white text-orange-500 w-full px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 hover:text-white duration-500 border-orange-500 border-2">Book
+                            now</button>
+                    </div>
+                </div>
+                <div class="items bg-[#fcfdff]">
+                    <img class="w-10/12" src="images/services6.jpg" alt="">
+                    <div class="flex flex-col justify-center items-center py-5 px-10 gap-7">
+                        <a class="text-2xl hover:text-gray-500" href="#">Family Planning</a>
+                        <button
+                            class="bg-white text-orange-500 w-full px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 hover:text-white duration-500 border-orange-500 border-2">Book
+                            now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-14">
+                <button
+                    class="bg-orange-500 text-white w-fit px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 duration-500">More
+                    Services</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Flu shot -->
+    <section class="bg-no-repeat bg-cover w-full h-max md:my-14 xl:my-14 xl:max-w-7xl xl:m-auto"
+        style="background-image: linear-gradient(rgba(13, 27, 54, 0.5), rgba(13, 27, 54, 0.5)), url('images/flu_background.jpg');">
+        <div class="px-6 py-14 text-center text-white flex flex-col justify-center items-center">
+            <h2 class="text-3xl font-bold mb-7 md:text-6xl">Get a Free Flu Shot Today!</h2>
+            <button
+                class="bg-orange-500 w-fit px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 duration-500">Book
+                a FluShot</button>
+        </div>
+
+    </section>
+
+
+    <!-- Patient info -->
+    <section id="patientinfo" class="my-14">
+        <div class="grid">
+            <div class="text-center px-8 md:order-1">
+                <h2 class="text-blue-700 font-bold text-xl mb-3">Insurance Policy</h2>
+                <h3 class="text-lg">Nearly all major insurance plans accepted</h3>
+                <p class="my-8">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                    to tell a
+                    story and let your users know a little more about you.</p>
+            </div>
+            <div class="flex justify-center items-center md:order-4">
+                <button
+                    class="bg-orange-500 text-white w-fit px-5 py-3 rounded-3xl text-center md:text-base hover:bg-orange-600 duration-500">New
+                    Patient Form</button>
+            </div>
+            <div class="my-7 px-8 w-3/4 m-auto h-[1px] bg-gray-400 md:order-2"></div>
+            <div class="grid grid-cols-2 gap-4 m-auto max-w-xs md:grid-cols-3 md:order-3 mb-10">
+                <div class="flex justify-center items-center"><img src="images/logo1.png" alt="logo"></div>
+                <div class="flex justify-center items-center"><img src="images/logo2.png" alt="logo"></div>
+                <div class="flex justify-center items-center"><img src="images/logo3.png" alt="logo"></div>
+                <div class="flex justify-center items-center"><img src="images/logo4.png" alt="logo"></div>
+                <div class="flex justify-center items-center"><img src="images/logo5.png" alt="logo"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <section id="contact" class="mt-14 max-w-3xl m-auto">
+        <div class="md:grid md:grid-cols-2">
+            <div class="left p-6">
+                <h2 class="text-blue-700 font-bold text-xl mb-5">Contact</h2>
+                <div>
+                    <form action="">
+                        <div class="flex flex-col gap-6">
+                            <div class="flex flex-col gap-6">
+                                <input class="border-b hover:border-blue-700 h-10 placeholder-blue-700 outline-none"
+                                    type="text" placeholder="Your Name">
+                                <input class="border-b hover:border-blue-700 h-10 placeholder-blue-700 outline-none"
+                                    type="email" placeholder="Email">
+                            </div>
+                            <input class="border-b hover:border-blue-700 h-10 placeholder-blue-700 outline-none"
+                                type="number" placeholder="Phone">
+                            <textarea class="border-b hover:border-blue-700 h-10 placeholder-blue-700 outline-none"
+                                cols="30" rows="5" placeholder="Type your message here..."></textarea>
+                            <div class="flex justify-center items-center mb-4">
+                                <button
+                                    class="bg-blue-700 text-white w-fit px-5 py-3 rounded-3xl text-center md:text-base hover:bg-blue-800 duration-500">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right p-6 bg-blue-800 text-white text-center space-y-3 flex flex-col justify-center">
+                <h3>Opening Hours</h3>
+                <p>Monday-Friday: 9am to 7pm</p>
+                <p>Saturday: 9am to 4pm</p>
+                <p>Sunday: Closed</p>
+                <div class="my-7 px-8 w-full m-auto h-[0.1px] bg-gray-400"></div>
+                <p>500 Terry Francois Street, San Francisco,</p>
+                <p>CA 94158</p>
+                <p>123-456-7890</p>
+                <p>123-456-7890</p>
+                <p>info@mysite.com</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Map -->
+    <section>
+        <div class="mapouter relative text-right mt-4">
+            <div class="gmap_canvas overflow-hidden"><iframe class="gmap_iframe w-5/6 m-auto h-[400px]" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=nair hospital&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-blue-700 text-white text-center py-3 px-2">
+        <div>© 2023 by Dixon MD Family Doctor. Proudly created by Kuldeep Singh Rathore</div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
